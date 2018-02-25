@@ -1,0 +1,704 @@
+/*Custom css normal*/
+
+.row {
+    margin: 0px;
+}
+
+.cargrid {
+    width: 98%;
+}
+
+
+
+.mycol_md_4 {
+    width: 25%;
+}
+
+.copy {
+    margin-left: 6%;
+}
+
+.mycol_md_8 {
+    width: 70%;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+[class*="grid_"] {
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.foogrid {
+    float: right;
+    margin-right: 5%;
+}
+
+#header {
+    position: relative;
+    background: #f0f0f0 url(./images/header_bg.png) 0 0 repeat-x;
+    text-align: left;
+    -webkit-box-shadow: 0 7px 7px #dddddd;
+    box-shadow: 0 7px 7px #dddddd;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    /*background: url(../images/menu_bg.jpeg) 0 0 repeat-x;*/
+    height: 75px;
+}
+
+.catimg_class {
+    width: 100%;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px \9;
+    margin-left: -20px;
+    display: none;
+}
+
+.checkbox img{
+    margin-bottom: 1%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.cam_wrap {
+    position: relative;
+    bottom: -410px;
+    background: black;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.cam_wrap p {
+    color: rgb(255, 255, 255);
+}
+#sliderbar{
+    min-height:300px;
+    max-height:875px;
+    overflow-x: hidden;
+    margin-top: 2%;h1
+    margin-bottom: 100px;
+}
+h1 a {
+    padding-left: 5%;
+}
+#slider > #carcontent > .grid_12 > .row > .alpha{
+    margin-right: 30px;
+}
+
+#slider > #carcontent > .grid_12 > .row > .omega {
+    margin-left: 30px;
+
+}
+
+.panel-heading{
+    margin: 0px 0px 8px 8px;
+}
+
+p{
+    color: black;
+}
+
+.well {
+    border: 1px solid #e22323;
+}
+
+.sidebar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    min-height: 600px;
+    /*background-color: #f5f5f5;*/
+}
+
+.sidebar .well {
+    border-radius: 0px;
+    /* background-color: #EEE; */
+    background-color: #FFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 12px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    /* padding: 6px 12px;*/
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.intres {
+    position: relative;
+    display: inline-block;
+    background: #e22323;
+    color: #ffffff!important;
+    font-family: 'Lato';
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px 0 0;
+    padding: 0 28px;
+    font-size: 16px;
+    line-height: 53px;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar legend {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+legend {
+    padding: 0 0 2% 0;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #e22323;
+    width: 100%;
+}
+
+fieldset {
+    padding: 4% 0;
+}
+
+.cat_opacity {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container .omega {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.container .alpha {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.thumb{
+    border: 1px solid #E22323;
+    width: 270px;
+    height: 411px;
+}
+
+.caption{
+    padding: 2px 24px 8px 24px;
+    line-height: 1.5em;
+}
+
+.slider-handle {
+    background-image: -webkit-linear-gradient(top, #e22323 0, #e22323 100%);
+}
+
+.slider .slider-horizontal{
+    margin-left: 22px!important;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.thumbnail {
+    border: 1px solid #e22323;
+}
+
+.tick {
+    color: #008000;
+}
+
+.cross {
+    color: #ff0000;
+}
+
+.form-text{
+    display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.thumb > a > img{
+    max-width: 100%;
+    height: 200px;
+}
+
+#carimage{
+    width: 350px;
+    height: 275px;
+    padding: 2px;
+}
+
+.slider.slider-horizontal {
+    width: 90%;
+    height: 20px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+/*.grid_2 > a > .thumb {
+    width: 225px;
+    margin-right: 8px;
+}
+.grid_2 {
+    margin: 0px;
+}*/
+
+/*tablets css start from here*/
+
+@media only screen and (max-width: 1024px){
+    #sliderbar {
+        min-height: 300px;
+        max-height: 875px;
+        overflow-x: hidden;
+        margin-top: 375px;
+        margin-bottom: 100px;
+    }
+
+    .container {
+        width: 500px;
+        padding: 0 15px;
+    }
+    .row {
+        margin-left: 0;
+    }
+    [class*="grid_"] {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .select-menu {
+        display: block!important;
+        background: #000000;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        display: block;
+        height: 28px;
+        margin: 24px 0 0;
+        padding: 3px 3px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%;
+
+    }
+    .sf-menu {
+        display: none;
+    }
+    .container {
+        width: 524px;
+        padding: 0 15px;
+    }
+    .cam_wrap {
+        display: none;
+    }
+
+    #sliderbar {
+        margin-top: 175px;
+    }
+    #slider > #carcontent > .grid_12 > .row > .omega {
+        margin-left: 6px;
+    }
+
+    .thumb {
+        border: 1px solid #E22323;
+        width: 96%;
+        height: 480px;
+    }
+    .m1 {
+        margin-bottom: 43px;
+    }
+    .thumb > a > img {
+        width: 100%;
+        height: 275px;
+    }
+    .container .alpha {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .camera_caption .year {
+        display: none;
+    }
+    h1 a {
+        font-size: 68px;
+        line-height: 76px;
+    }
+
+    h1 a span {
+        font-size: 36px;
+        letter-spacing: -3px;
+        line-height: 43px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    #sliderbar {
+        min-height: 300px;
+        max-height: 875px;
+        overflow-x: hidden;
+        margin-top: 375px;
+        margin-bottom: 100px;
+    }
+
+    .container {
+        width: 500px;
+        padding: 0 15px;
+    }
+    .row {
+        margin-left: 0;
+    }
+    [class*="grid_"] {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .select-menu {
+        display: block!important;
+        background: #000000;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        display: block;
+        height: 28px;
+        margin: 24px 0 0;
+        padding: 3px 3px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%;
+
+    }
+    .sf-menu {
+        display: none;
+    }
+    .container {
+        width: 524px;
+        padding: 0 15px;
+    }
+    .cam_wrap {
+        display: none;
+    }
+
+    #sliderbar {
+        margin-top: 175px;
+    }
+    #slider > #carcontent > .grid_12 > .row > .omega {
+        margin-left: 6px;
+    }
+
+    .thumb {
+        border: 1px solid #E22323;
+        width: 96%;
+        height: 480px;
+    }
+    .m1 {
+        margin-bottom: 43px;
+    }
+    .thumb > a > img {
+        width: 100%;
+        height: 275px;
+    }
+    .container .alpha {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .camera_caption .year {
+        display: none;
+    }
+    h1 a {
+        font-size: 68px;
+        line-height: 76px;
+    }
+
+    h1 a span {
+        font-size: 36px;
+        letter-spacing: -3px;
+        line-height: 43px;
+    }
+
+}
+
+/*mobile css*/
+
+@media only screen and (max-width:640px) {
+
+    .container {
+        width: 300px;
+        padding: 0 15px;
+    }
+
+    .row {
+        margin-left: 0;
+    }
+
+    article {
+        margin-top: 50px;
+    }
+
+    #carimage{
+        width: 250px;
+        height: 200px;
+        padding: 2px;
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%; /* Could be more or less, depending on screen size */
+    }
+
+    h1 a {
+        font-size: 44px;
+        line-height: 76px;
+    }
+
+    h1 a span {
+        font-size: 28px;
+        letter-spacing: -3px;
+        line-height: 43px;
+    }
+
+    #footer h1 a {
+        font-size: 36px;
+        letter-spacing: -5px;
+        line-height: 67px;
+    }
+    #footer h1 a span {
+        font-size: 24px;
+        letter-spacing: -3px;
+        line-height: 41px;
+        margin-left: 6px;
+    }
+    #footer{
+        padding: 0px 0px 9px;
+    }
+    .thumb {
+        border: 1px solid #E22323;
+        width: 95%;
+        height: 420px;
+    }
+
+    .m1 {
+        margin-bottom: 43px;
+    }
+
+    #sliderbar {
+        margin-top: 75px;
+    }
+
+    #slider > #carcontent > .grid_12 > .row > .omega {
+        margin-left: 6px;
+    }
+
+    .thumb > a > img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    article {
+        margin-top: 50px;
+    }
+
+    #carimage{
+        width: 250px;
+        height: 200px;
+        padding: 2px;
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%; /* Could be more or less, depending on screen size */
+    }
+
+    h1 a {
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+    h1 a span {
+        font-size: 22px;
+        letter-spacing: -3px;
+        line-height: 43px;
+    }
+
+    #footer h1 a {
+        font-size: 36px;
+        letter-spacing: -5px;
+        line-height: 67px;
+    }
+    #footer h1 a span {
+        font-size: 24px;
+        letter-spacing: -3px;
+        line-height: 41px;
+        margin-left: 6px;
+    }
+    #footer{
+        padding: 0px 0px 9px;
+    }
+    .thumb {
+        border: 1px solid #E22323;
+        width: 95%;
+        height: 435px;
+    }
+
+    .m1 {
+        margin-bottom: 43px;
+    }
+
+    #sliderbar {
+        margin-top: 75px;
+    }
+
+    #slider > #carcontent > .grid_12 > .row > .omega {
+        margin-left: 6px;
+    }
+
+    .thumb > a > img {
+        width: 100%;
+        height: 205px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

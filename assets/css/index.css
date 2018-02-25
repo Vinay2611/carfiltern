@@ -1,0 +1,315 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+    /* With these codes padding and border does not increase it's width and gives intuitive style.*/
+  margin:0;
+  padding:0;
+	-webkit-box-sizing: border-box;   
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clear{
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+body
+{
+	font-family:Trebuchet MS;
+}
+
+i{
+	color:#79111a;
+}
+
+.row
+{
+	width:100%;
+	margin: 0 auto;
+}
+.container
+{
+	width:90%;
+	margin: 0 auto;
+	padding:2%;
+}
+.header
+{
+	text-align: center;
+	padding:2%;
+	text-align:center;
+	font-size:30px;
+	text-transform: uppercase;
+	font-family:Trebuchet MS;
+	font-weight:bold;
+}
+.box
+{
+	width:98%;
+	margin:0 auto;
+}
+.left
+{
+	margin: 0 auto;
+	padding: 1%;
+	float:left;
+	width:50%;
+}
+.right
+{
+	margin: 0 auto;
+	padding: 1%;
+	float:left;
+	width:50%;
+}
+.mybox
+{
+	margin: 0 auto;
+	width:50%;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+.error
+{
+	color:#79111a;
+	display:block;
+	font-weight:700;
+	padding:1%;
+	font-size:16px;
+}
+h2{
+font-size:18px;
+text-align:center;
+padding : 2%;
+}
+.coursemenu
+{
+	width:30%;
+	margin:2% auto;
+}
+a
+{
+	text-decoration:none;
+}
+.coursemenu ol
+{
+	text-align:center;
+	font-size:22px;
+	list-style-type: none;
+}
+.coursemenu ol li
+{
+	border:2px solid #79111a;
+	border-radius: 10px;
+	padding:2%;
+	margin:1%;
+}
+.coursemenu ol li a
+{
+	color :#000;
+}
+.usertable
+{
+	width:60%;
+	margin:2% auto;
+}
+.usertable th
+{
+	background-color: #79111a;
+	font-size: 18px;
+	color: #ffffff;
+	padding:1%;
+	font-family: Trebuchet MS;
+	background-color: #79111a;
+	border: 0px solid #000000;
+	border-radius: 8px 0 0 8px;
+}
+.usertable td
+{
+	background: #e9e9e9;
+	background-color: #e9e9e9;
+	border: 0px solid #000000;
+	border-radius: 0  8px 8px 0;
+	font-size: 18px;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	color: #000000;
+	padding:1%;
+}
+.usertable a
+{
+	color: #79111a;
+}
+/*-------------------- table ----------------*/
+.responsive {
+	margin:0px;padding:0px;
+	width:100%;
+	/*background:#525252;*/
+}.responsive table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}.responsive tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.responsive table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.responsive table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.responsive tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.responsive tr:hover td{
+	
+}
+.responsive tr:nth-child(odd){ background-color:#ffffff; }
+.responsive tr:nth-child(even)    { background-color:#ffffff; }.responsive td{
+	vertical-align:middle;
+	text-align:center;
+	padding:8px;
+	background:#e9e9e9;
+	font-size:18px;
+	font-family:Trebuchet MS;
+	font-weight:normal;
+	color:#000000;
+}
+.responsive tr:first-child td{
+	/*background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");	
+	background: -o-linear-gradient(top,#ff7f00,bf5f00);*/
+	background-color:#79111a;
+	border:0px solid #000000;
+	border-radius:8px 8px 0 0;
+	text-align:center;
+	font-size:18px;
+	color:#ffffff;
+}
+/*.responsive tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");	
+	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+	background-color:#ff7f00;
+}*/
+
+/*----------------------- end of table class ---------------*/
+@media (max-width: 1024px) 
+{
+	.usertable
+	{
+		width:98%;
+	}
+}
+@media (max-width: 768px) {
+.left,.right
+{
+	width:100%;
+	float:none;
+}
+#cssmenu > ul > li > a {
+    font-size: 16px;
+}
+.coursemenu
+{
+	width:40%;
+	margin:5% auto;
+}
+.coursemenu ol
+{
+	font-size:20px;
+}
+}
+@media (max-width: 640px) {
+	/* CSS Responsive table */
+	table.responsive,
+	table.responsive thead,
+	table.responsive tbody,
+	table.responsive th,
+	table.responsive td,
+	table.responsive tr { display: block;}
+	table.responsive thead tr { position: absolute; top: -9999px; left: -9999px; }
+	table.responsive tr { border: 1px solid #ccc; margin-bottom: 0px; }
+	table.responsive td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 30%; }
+	table.responsive td:before {	position: absolute;	top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word; }
+	table.responsive tr:first-child { position: absolute; top: -9999px; left: -9999px; }
+	table.responsive td:before { content: attr(data-content); height: 50px; }
+	table.responsive td.small-padding { padding-top: 5px; padding-bottom: 5px;font-size:13px;}
+	table.responsive td.medium-padding { padding-top: 5px; padding-bottom: 5px; font-size:13px; }
+	table.responsive td.large-padding { padding-top: 5px; padding-bottom: 5px;font-size:13px;}
+.coursemenu
+{
+	width:90%;
+	margin:5% auto;
+}
+.coursemenu ol
+{
+	font-size:18px;
+}
+.usertable th,.usertable td
+{
+	font-size:16px;
+}
+.header
+{
+	min-height:70px;
+}
+}
+@media (max-width: 480px) {
+.header
+{
+	min-height:60px;
+}
+h2{
+	font-size:16px;
+}
+.error
+{
+	font-size:14px;
+}
+.coursemenu
+{
+	width:80%;
+}
+.coursemenu ol
+{
+	font-size:16px;
+}
+.usertable th,.usertable td
+{
+	font-size:14px;
+}
+}
+@media (max-width: 360px) {
+.header
+{
+	min-height:50px;
+}
+h2{
+	font-size:14px;
+}
+.error
+{
+	font-size:12px;
+}
+.usertable{width:100%;}
+.usertable th,.usertable td
+{
+	font-size:12px;
+}
+}

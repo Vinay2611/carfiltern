@@ -1,0 +1,9 @@
+Brand (Märke),model,Description(Beskrivning),image(bil Bild),Categori (kategori),Monthly cost (månadskostnad),Gear (växellåda),Seats (sittplatser),Fuel (bränsletyp),Co2 g/km,Fuel consumtion (bränsleförbrukning),Size Cargo space (bagegeutrymme VDA liter),Horsepower (hästkrafter),Drive (drivlina),Years (Hyresperiod),Total Mileage (total körsträcka),Service Included (service ingår),Insurance Included (försäkring ingår),Wintertyres Included (vinterhjul ingår)
+Hyundai,i20,Nice Car,586e286bcebab.jpg,sport,1989,Manuell,4,Alla,6789066,0.46,370,110,Framhjulsdriven,2,3500,Yes,Yes,Yes
+TATA,I10,test,586e283e5daf6.jpg,kombi,3000,Manuell,6,Alla,5600,0.46,450,90,Framhjulsdriven,3,3500,Yes,No,Yes
+Swift,10,Test,586e28556afa8.jpg,mellan,4650,Manuell,5,Alla,55500,0.46,370,110,Bakhjulsdriven,2,3000,Yes,Yes,Yes
+Mercede,Beq,Nice Car,586e288d540d1.jpg,smabil,3445,Manuell,2,Hybrid/EI,123,0.46,450,90,Bakhjulsdriven,3,4000,Yes,Yes,Yes
+Toyato,H10,Nice Car,586e28296823a.jpg,SUV,5520,Automat,8,Bensin,2343,0.56,450,110,Fyrhjulsdriven,2,5500,Yes,Yes,Yes
+Nissan ,F20,Nice,586e28af762fe.jpg,mellan,5000,Automat,6,Alla,0,0.56,466,90,Fyrhjulsdriven,3,2500,Yes,Yes,Yes
+Wmotor,Lycan,Super Car with Super Feature,586e2f7a0d7f5.jpg,Minibus,1234,Automat,4,Alla,4500,0.56,482,110,Fyrhjulsdriven,2,4000,Yes,Yes,Yes
+test brand,test model,test desctription,586f4bf772eaf.jpg,suv,2660,Automat,5,Diesel,110,0.56,498,90,Bakhjulsdriven,3,4500,Yes,No,Yes
